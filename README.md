@@ -5,9 +5,9 @@ cgi for w3m to use weblio ej
 
 Compile
 ---
-'''sh
+```sh
 gcc -std=c99 dict.c -lcurl -loauth -o dict.cgi
-'''
+```
 You can change output name by -o option
 
 Dependencies
